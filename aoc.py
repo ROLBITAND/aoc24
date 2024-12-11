@@ -14,7 +14,7 @@ IMPLEMENTATIONS = {
 
 def parse_arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    
+
     parser.add_argument("day", type=int)
     parser.add_argument("part", type=int)
     # use the same input as part 1
