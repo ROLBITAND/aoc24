@@ -4,6 +4,7 @@ import day1
 import day2
 import day3
 import day4
+import day5
 
 
 IMPLEMENTATIONS = {
@@ -15,6 +16,8 @@ IMPLEMENTATIONS = {
     (3, 2): day3.part2,
     (4, 1): day4.part1,
     (4, 2): day4.part2,
+    (5, 1): day5.part1,
+    (5, 2): day5.part2,
 }
 
 
